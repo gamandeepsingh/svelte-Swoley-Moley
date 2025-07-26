@@ -1,4 +1,3 @@
-
 <script>
     import { openModal } from "../store";
 </script>
@@ -15,7 +14,6 @@
         <button
             on:click={() => ($openModal = true)}
             class="md:hidden grid place-items-center"
-            aria-label="Open menu"
         >
             <i class="fa-solid fa-bars"></i>
         </button>
